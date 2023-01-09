@@ -1,0 +1,62 @@
+
+qy_effect_juexingji.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baidi
+  rotate: false
+  xy: 908, 488
+  size: 4, 4
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+heidi
+  rotate: false
+  xy: 2, 2
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+xianding_golw_00001
+  rotate: false
+  xy: 2, 252
+  size: 300, 240
+  orig: 300, 240
+  offset: 0, 0
+  index: -1
+xianding_golw_00002
+  rotate: false
+  xy: 2, 10
+  size: 300, 240
+  orig: 300, 240
+  offset: 0, 0
+  index: -1
+xianding_golw_00003
+  rotate: false
+  xy: 304, 252
+  size: 300, 240
+  orig: 300, 240
+  offset: 0, 0
+  index: -1
+xianding_golw_00004
+  rotate: false
+  xy: 304, 10
+  size: 300, 240
+  orig: 300, 240
+  offset: 0, 0
+  index: -1
+xianding_golw_00005
+  rotate: false
+  xy: 606, 252
+  size: 300, 240
+  orig: 300, 240
+  offset: 0, 0
+  index: -1
+xianding_golw_00006
+  rotate: false
+  xy: 606, 10
+  size: 300, 240
+  orig: 300, 240
+  offset: 0, 0
+  index: -1

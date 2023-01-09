@@ -1,0 +1,62 @@
+
+qy_avatarbox.png
+size: 1024,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pai_00004
+  rotate: false
+  xy: 460, 1356
+  size: 458, 437
+  orig: 468, 492
+  offset: 0, 42
+  index: -1
+pai_00007
+  rotate: false
+  xy: 1, 908
+  size: 459, 443
+  orig: 468, 492
+  offset: 0, 38
+  index: -1
+pai_00001
+  rotate: false
+  xy: 1, 1
+  size: 461, 458
+  orig: 468, 492
+  offset: 0, 23
+  index: -1
+pai_00002
+  rotate: false
+  xy: 464, 458
+  size: 461, 452
+  orig: 468, 492
+  offset: 0, 27
+  index: -1
+pai_00000
+  rotate: false
+  xy: 464, 1
+  size: 460, 455
+  orig: 468, 492
+  offset: 0, 26
+  index: -1
+pai_00003
+  rotate: false
+  xy: 1, 461
+  size: 460, 445
+  orig: 468, 492
+  offset: 0, 34
+  index: -1
+pai_00005
+  rotate: false
+  xy: 1, 1353
+  size: 457, 441
+  orig: 468, 492
+  offset: 0, 40
+  index: -1
+pai_00006
+  rotate: false
+  xy: 462, 912
+  size: 458, 442
+  orig: 468, 492
+  offset: 0, 39
+  index: -1

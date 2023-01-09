@@ -1,0 +1,139 @@
+
+qy_mvp.png
+size: 1894,1951
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pai_00000
+  rotate: false
+  xy: 2, 1457
+  size: 468, 492
+  orig: 468, 492
+  offset: 0, 0
+  index: -1
+pai_00001
+  rotate: false
+  xy: 2, 963
+  size: 468, 492
+  orig: 468, 492
+  offset: 0, 0
+  index: -1
+pai_00002
+  rotate: false
+  xy: 472, 1457
+  size: 468, 492
+  orig: 468, 492
+  offset: 0, 0
+  index: -1
+pai_00003
+  rotate: false
+  xy: 2, 469
+  size: 468, 492
+  orig: 468, 492
+  offset: 0, 0
+  index: -1
+pai_00004
+  rotate: false
+  xy: 472, 963
+  size: 468, 492
+  orig: 468, 492
+  offset: 0, 0
+  index: -1
+pai_00005
+  rotate: false
+  xy: 942, 1457
+  size: 468, 492
+  orig: 468, 492
+  offset: 0, 0
+  index: -1
+pai_00006
+  rotate: false
+  xy: 472, 469
+  size: 468, 492
+  orig: 468, 492
+  offset: 0, 0
+  index: -1
+pai_00007
+  rotate: false
+  xy: 942, 963
+  size: 468, 492
+  orig: 468, 492
+  offset: 0, 0
+  index: -1
+piaodai1_00000
+  rotate: false
+  xy: 1418, 344
+  size: 252, 177
+  orig: 252, 177
+  offset: 0, 0
+  index: -1
+piaodai_00000
+  rotate: false
+  xy: 2, 231
+  size: 712, 236
+  orig: 712, 236
+  offset: 0, 0
+  index: -1
+piaodai_00001
+  rotate: true
+  xy: 1412, 1237
+  size: 712, 236
+  orig: 712, 236
+  offset: 0, 0
+  index: -1
+piaodai_00002
+  rotate: true
+  xy: 1650, 1237
+  size: 712, 236
+  orig: 712, 236
+  offset: 0, 0
+  index: -1
+piaodai_00003
+  rotate: true
+  xy: 942, 249
+  size: 712, 236
+  orig: 712, 236
+  offset: 0, 0
+  index: -1
+piaodai_00004
+  rotate: true
+  xy: 1180, 249
+  size: 712, 236
+  orig: 712, 236
+  offset: 0, 0
+  index: -1
+piaodai_00005
+  rotate: true
+  xy: 1418, 523
+  size: 712, 236
+  orig: 712, 236
+  offset: 0, 0
+  index: -1
+piaodai_00006
+  rotate: true
+  xy: 1656, 523
+  size: 712, 236
+  orig: 712, 236
+  offset: 0, 0
+  index: -1
+piaodai_00007
+  rotate: false
+  xy: 716, 11
+  size: 712, 236
+  orig: 712, 236
+  offset: 0, 0
+  index: -1
+quanchangzuijia
+  rotate: false
+  xy: 2, 61
+  size: 466, 168
+  orig: 466, 168
+  offset: 0, 0
+  index: -1
+wujiang_baise
+  rotate: false
+  xy: 2, 2
+  size: 41, 57
+  orig: 41, 57
+  offset: 0, 0
+  index: -1

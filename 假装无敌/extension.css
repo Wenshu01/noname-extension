@@ -1,0 +1,1404 @@
+.player .identity[data-color='qingyao_xian'],
+div[data-nature='qingyao_xian'],
+span[data-nature='qingyao_xian'] {
+    -webkit-animation: 清瑶text-shadow 20s infinite;
+    animation: 清瑶text-shadow 20s infinite;
+}
+
+.player .identity[data-color='qingyao_xianm'],
+div[data-nature='qingyao_xianm'],
+span[data-nature='qingyao_xianm'] {
+    -webkit-animation: 清瑶text-shadow 20s infinite;
+    animation: 清瑶text-shadow 20s infinite;
+}
+
+.player .identity[data-color='qingyao_xianmm'],
+div[data-nature='qingyao_xianmm'],
+span[data-nature='qingyao_xianmm'] {
+    -webkit-animation: 清瑶text-shadow 20s infinite;
+    animation: 清瑶text-shadow 20s infinite;
+}
+
+.camp-wrap[data-camp='qingyao_xian'] > .camp-back {
+    overflow: hidden;
+}
+
+.camp-wrap[data-camp='qingyao_xian'] > .camp-back:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(45deg, rgb(255, 0, 106), rgb(0, 255, 196), rgb(255, 0, 247));
+    background-size: 400%;
+    animation: xian_sun 4s infinite;
+}
+
+@keyframes xian_sun {
+    100% {
+        background-position: -400% 0;
+    }
+}
+
+
+.camp-wrap[data-camp='qingyao_xian'] > .camp-name {
+    text-shadow: 0 0 5px rgb(242, 16, 167), 0 0 10px rgb(242, 16, 167), 0 0 15px rgb(242, 16, 167);
+}
+
+.player > .camp-zone[data-camp='qingyao_xian'] > .camp-name {
+    text-shadow: 0 0 5px rgb(242, 16, 167), 0 0 10px rgb(242, 16, 167), 0 0 15px rgb(242, 16, 167);
+}
+
+.player .identity[data-color='qingyao_xian'],
+div[data-nature='qingyao_xian'],
+span[data-nature='qingyao_xian'] {
+    text-shadow: black 0 0 1px, rgba(255, 92, 187, 1) 0 0 2px, rgba(255, 92, 187, 1) 0 0 5px, rgba(255, 95, 187, 1) 0 0 10px, rgba(255, 92, 187, 1) 0 0 10px
+}
+
+div[data-nature='qingyao_xianm'], span[data-nature='qingyao_xianm'] {
+    text-shadow: black 0 0 1px, rgba(196, 107, 221, 1) 0 0 2px, rgba(196, 107, 221, 1) 0 0 5px, rgba(196, 107, 221, 1) 0 0 5px, rgba(196, 107, 221, 1) 0 0 5px, black 0 0 1px;
+}
+
+div[data-nature='qingyao_xianmm'], span[data-nature='qingyao_xianmm'] {
+    text-shadow: black 0 0 1px, rgba(255, 62, 142, 1) 0 0 2px, rgba(255, 62, 142, 1) 0 0 2px, rgba(255, 62, 142, 1) 0 0 2px, rgba(255, 62, 142, 1) 0 0 2px, black 0 0 1px;
+}
+
+
+.qy-mvp-container {
+    width: 80%;
+    height: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.qy-mvp-piaodai-left {
+    width: 100%;
+    height: 25%;
+    left: -6%;
+    background-size: 100% 100%;
+    background-image: url("images/piaodai_zuo.png");
+    z-index: -1;
+    position: relative;
+}
+
+.qy-mvp-piaodai-right {
+    height: 20%;
+    width: 36%;
+    background-size: 100% 100%;
+    z-index: -1;
+    position: relative;
+    top: -3%;
+    left: 8%;
+    background-image: url("images/piaodai_you.png");
+}
+
+.qy-center-container {
+    position: relative;
+    height: 110%;
+    width: 85%;
+    left: 7%;
+}
+
+.qy-mvp-avatarbox {
+    width: 150%;
+    height: 90%;
+    top: 7%;
+    left: -46%;
+    background-size: 100% 100%;
+    background-image: url("images/avatarbox.png");
+}
+
+.qy-mvp-avatarborder {
+    width: 45%;
+    height: 58%;
+    top: 21.9%;
+    left: 30%;
+    background-size: 100% 100%;
+    transform: rotate(12deg);
+    z-index: 2;
+}
+
+.qy-mvp-avatarborder::before {
+    content: attr(data-name);
+    top: 20%;
+    position: absolute;
+    width: 15px;
+    left: 4%;
+    font-size: 1.8vw;
+    font-family: shousha;
+}
+
+.qy-mvp-avatar {
+    background-size: cover;
+    background-position-x: 50%;
+    width: 37%;
+    height: 54%;
+    top: 23.9%;
+    left: 36%;
+    transform: rotate(12deg);
+}
+
+.qy-mvp-qyInfo {
+    position: absolute;
+    width: 120%;
+    height: 80%;
+    top: 23%;
+    left: 85%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.qy-mvp-qyInfo div {
+    position: relative;
+    width: 100%;
+}
+
+.qy-mvp-title {
+    height: 24%;
+    font-size: 1.7vw;
+    background-image: url("images/quanchangzuijia.png");
+    background-size: 100% 100%;
+}
+
+.qy-mvp-center {
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+.qy-mvp-center div {
+    font-family: shousha;
+    font-weight: 800;
+}
+
+.qy-player-info * {
+    font-size: 2.7vw;
+    color: rgb(234, 138, 76);
+}
+
+.qy-mvp-icon {
+    background-image: url("images/17.png");
+    background-size: 100% 100%;
+    width: 35% !important;
+    height: 100%;
+}
+
+
+.qy-mvp-name-info {
+    font-size: 4.1vw !important;
+    color: #D9B46C;
+}
+
+.qy-mvp-scoreInfo {
+    top: 7%;
+}
+
+.qy-mvp-xing {
+    position: relative;
+    width: 15px;
+    height: 24%;
+    top: 49%;
+    left: 27%;
+    z-index: 9;
+    transform: rotate(12deg);
+    display: inline-flex;
+    flex-direction: column-reverse;
+}
+
+.qy-mvp-xing > .item {
+    position: relative;
+    background: url(images/pdxx_00000.png);
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    left: 32%;
+    z-index: 9;
+    transform: rotate(12deg);
+}
+
+.qy-mvp-scoreInfo * {
+    font-family: shousha;
+    font-weight: 800;
+    font-size: 2.7vw;
+    color: #9F9D7C;
+}
+
+.qy-mvp-name-title:first-child {
+    color: #BC9467;
+}
+
+.qy-mvp-name-title:last-child {
+    color: #CC941C;
+}
+
+#Jzwd-canvas-animation {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 101;
+    pointer-events: none;
+}
+
+@media (min-width: 1920px) {
+    .qy-mvp-avatarbox {
+        height: 110%;
+        top: -2%;
+    }
+}
+
+
+.qy-input-number-container {
+    background-color: #FFFFFF;
+    position: relative;
+    display: inline-block;
+    width: 180px;
+    line-height: 38px;
+    cursor: move;
+}
+
+.qy-input-number {
+    position: relative;
+    display: inline-block;
+    width: 180px;
+    line-height: 38px;
+}
+
+.qy-input-number__decrease, .qy-input-number__increase {
+    position: absolute;
+    z-index: 1;
+    top: 1px;
+    width: 40px;
+    height: auto;
+    text-align: center;
+    background: #f5f7fa;
+    color: #606266;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.qy-input-number__decrease {
+    left: 1px;
+    border-radius: 4px 0 0 4px;
+    border-right: 1px solid #dcdfe6;
+}
+
+.qy-input-number__increase {
+    right: 1px;
+    border-radius: 0 4px 4px 0;
+    border-left: 1px solid #dcdfe6;
+}
+
+.qy-input {
+    position: relative;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+}
+
+.qy-input-number__decrease.is-disabled, .qy-input-number__increase.is-disabled {
+    color: #c0c4cc;
+    cursor: not-allowed;
+}
+
+.qy-input input {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    -webkit-appearance: none;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 4px;
+    border: 1px solid #dcdfe6;
+    box-sizing: border-box;
+    color: #606266;
+    display: inline-block;
+    font-size: inherit;
+    height: 40px;
+    line-height: 40px;
+    outline: none;
+    padding: 0 15px;
+    transition: border-color .2s cubic-bezier(.645, .045, .355, 1);
+    width: 100%;
+    cursor: pointer;
+}
+
+.qy-button {
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #dcdfe6;
+    color: #606266;
+    -webkit-appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    transition: .1s;
+    font-weight: 500;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.qy-button:focus, .qy-button:hover {
+    color: #409eff;
+    border-color: #c6e2ff;
+    background-color: #ecf5ff;
+}
+
+.qy-button:active {
+    color: #3a8ee6;
+    border-color: #3a8ee6;
+    outline: none;
+}
+
+.qy-button--primary {
+    color: #fff;
+    background-color: #409eff;
+    border-color: #409eff;
+}
+
+.qy-button--primary:active {
+    background: #3a8ee6;
+    border-color: #3a8ee6;
+    color: #fff;
+}
+
+.qy-button--primary:focus, .qy-button--primary:hover {
+    background: #66b1ff;
+    border-color: #66b1ff;
+    color: #fff;
+}
+
+.qy-limit-container {
+    width: 70%;
+    height: 70%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.qy-limit-avatar {
+    width: 18%;
+    height: 44%;
+    left: 31%;
+    top: 27%;
+    z-index: 91;
+    transform: rotate(-9deg);
+    background-size: cover;
+    background-position-x: 50%;
+    border-radius: 4%;
+    background-image: url(qy_qyqingyaoxuying.jpg);
+}
+
+.qy-limit-border {
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(images/xianding_00000.png);
+    background-size: 100% 100%;
+    background-position-y: 50%;
+}
+
+.qy-juexingji-xiandingji-font {
+    display: flex;
+    width: auto;
+    justify-content: flex-start;
+    font-size: 10vw;
+    left: 56%;
+    position: absolute;
+    font-weight: 700;
+    top: 50%;
+    font-family: 'xinwei';
+
+    -webkit-text-stroke: 0.1px rgba(0, 0, 0, 0.4);
+    text-shadow: none;
+    /*字体渐变色，色调*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.qy_hidden {
+    display: none;
+}
+
+.qyFriendsCards {
+    background-size: 100% 100%;
+    width: 83px;
+    height: 62px;
+    background-image: url("images/TeammateHand.png");
+}
+
+.qyMvpMeTag {
+    width: 87px;
+    height: 55px;
+    left: 76%;
+    position: absolute;
+}
+
+
+.qy-avatar-1 {
+    background-image: url(qy_qyyujin.jpg);
+    width: 21.8vw;
+    height: 43vh;
+    z-index: 100;
+    left: 30.1%;
+    top: 29vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    transform: rotate(10deg);
+    display: block;
+    border-radius: 4%;
+}
+
+.qy-avatar-border-1 {
+    background-image: url(images/border_wei.png);
+    width: 24.2vw;
+    height: 46vh;
+    left: 29vw;
+    top: 27.9vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    transform: rotate(10deg);
+    display: block;
+    z-index: 101;
+}
+
+.qy-avatar-border-1::before {
+    content: attr(data-name);
+    top: 20%;
+    width: 4vh;
+    left: 4.5%;
+    position: absolute;
+    font-size: 3.8vh;
+    font-family: shousha, system-ui;
+}
+/*
+.qy-mvp-border-xing {
+    position: absolute;
+    width: 22px;
+    height: auto;
+    bottom: 3vh;
+    left: 2%;
+    transform: rotate(0deg);
+    display: inline-flex;
+    flex-direction: column-reverse;
+}
+
+.qy-mvp-border-xing > .item {
+    position: relative;
+    background: url(images/pdxx_00000.png);
+    background-size: cover;
+    width: 2vw;
+    height: 2vw;
+    left: 32%;
+    z-index: 9;
+    transform: rotate(-6deg);
+}
+
+.qy-mvp-right-info {
+    width: 31vw;
+    height: 39vh;
+    left: 48vw;
+    top: 44%;
+    z-index: 70;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.qy-mvp-grade {
+    background-image: url(images/quanchangzuijia.png);
+    flex-grow: 1;
+    background-size: 100% 100%;
+}
+
+.qy-mvp-player-info > div {
+    position: relative;
+    width: 100%;
+    font-family: shousha;
+    font-weight: 800;
+}
+
+.qy-mvp-technology * {
+    color: #9F9D7C;
+    font-family: shousha;
+    font-size: 2.2vw;
+    font-weight: 800;
+}
+
+.qy-mvp-player-icon {
+    width: 32%;
+    height: 100%;
+    position: relative;
+    background-image: url(images/17.png);
+    background-size: 100% 100%;
+}
+
+.qy-mvp-right-info > div {
+    position: relative;
+    flex: 1;
+}
+
+.qy-mvp-name-title {
+    font-size: 2.7vw;
+}
+
+.qy-mvp-player-info {
+    width: 68%;
+    height: 100%;
+}
+
+.qy-mvp-player-info > div {
+    position: relative;
+    width: 100%;
+    font-family: shousha;
+    font-weight: 800;
+}
+
+.qy-mvp-player-technology {
+    color: #CC941C;
+    font-size: 2.3vw;
+}
+
+.qy-mvp-player-nickname {
+    font-size: 4.1vw;
+    color: #D9B46C;
+}
+
+.qy-mvp-player-nickname > img {
+    position: absolute;
+    width: 6vw;
+    top: 5px;
+    margin-left: 15px;
+}
+
+.qy-mvp-right-container {
+    left: 60px;
+}
+
+.qy-mvp-technology {
+    left: 60px;
+}*/
+
+
+.qy-avatar {
+    background-image: url(qy_qyqingyaoxuying.jpg);
+    width: 25.6vw;
+    height: 54.8vh;
+    z-index: 100;
+    left: 22.8%;
+    top: 21.4vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    transform: rotate(-3deg);
+    display: block;
+    animation: qy-avatar-bounceOut 0.6s cubic-bezier(0.4, 0, 1, 1);
+}
+
+.qy-avatar-border {
+    background-image: url(images/border_wei.png);
+    width: 28.7vw;
+    height: 59vh;
+    left: 21.2vw;
+    top: 20vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    transform: rotate(-3deg);
+    display: block;
+    z-index: 101;
+}
+
+.qy-avatar-border::before {
+    content: attr(data-name);
+    top: 20%;
+    width: 5vh;
+    left: 4.5%;
+    position: absolute;
+    font-size: 4.3vh;
+    font-weight: 550;
+    font-family: shousha;
+}
+
+.qy-mvp-border-xing {
+    position: absolute;
+    width: 22%;
+    height: auto;
+    bottom: 3vh;
+    left: 0;
+    transform: rotate(0deg);
+    display: inline-flex;
+    flex-direction: column-reverse;
+}
+
+.qy-mvp-border-xing > .item {
+    position: relative;
+    background: url(images/pdxx_00000.png);
+    background-size: cover;
+    width: 2.3vw;
+    height: 2.3vw;
+    left: 25%;
+    z-index: 9;
+    transform: rotate(-6deg);
+}
+
+.qy-mvp-right-info {
+    width: 29vw;
+    height: 37vh;
+    left: 48vw;
+    top: 44%;
+    z-index: 70;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.qy-mvp-grade {
+    background-image: url(images/quanchangzuijia.png);
+    flex-grow: 1;
+    background-size: 100% 100%;
+}
+
+.qy-mvp-player-info > div {
+    position: relative;
+    width: 100%;
+    font-family: shousha;
+    font-weight: 800;
+}
+
+.qy-mvp-technology * {
+    color: #9F9D7C;
+    font-family: shousha;
+    font-size: 2vw;
+    font-weight: 800;
+    table-layout: unset;
+}
+
+.qy-mvp-player-icon {
+    width: 32%;
+    height: 100%;
+    position: relative;
+    background-image: url(images/17.png);
+    background-size: 100% 100%;
+    margin-right: 15px;
+}
+
+.qy-mvp-right-info > div {
+    position: relative;
+    flex: 1;
+}
+
+.qy-mvp-name-title {
+    font-size: 2.5vw;
+}
+
+.qy-mvp-player-info {
+    width: 68%;
+    height: 100%;
+}
+
+.qy-mvp-player-info > div {
+    position: relative;
+    width: 100%;
+    font-family: shousha;
+    font-weight: 800;
+    white-space: nowrap;
+    /* text-overflow: ellipsis; */
+    /* overflow: hidden; */
+}
+
+.qy-mvp-player-technology {
+    color: #CC941C;
+    font-size: 2.2vw;
+}
+
+.qy-mvp-player-nickname {
+    font-size: 3vw;
+    color: #D9B46C;
+}
+
+.qy-mvp-player-nickname > img {
+    position: absolute;
+    width: 6vw;
+    top: 5px;
+    margin-left: 15px;
+}
+
+.qy-mvp-right-container {
+    left: 60px;
+}
+
+.qy-mvp-technology {
+    left: 60px;
+}
+
+.qy-mvp-share-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 8%;
+    height: 14%;
+    background-image: url("images/pubtn_share.png");
+    background-size: 100% 100%;
+}
+
+
+.card.qy_selected::after,
+.card.qy_selected::before {
+    opacity: 1;
+}
+
+.qy_round_fuyuan {
+    height: 70% !important;
+    width: calc(100% - 95px) !important;
+    left: 50% !important;
+    top: 40% !important;
+    transition: none !important;
+    transform: translate(-50%, -50%) !important;
+    animation: none !important;
+    z-index: 200 !important;
+    background: rgba(0, 0, 0, 0.2) !important;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0 0 1px !important;
+}
+
+#window.qy_selected, #arena.qy_selected {
+    border: #0ea90c solid 5px;
+}
+
+.qy_card_selected .card::before {
+    left: -6px;
+    top: -5px;
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: #0ea90c solid 5px;
+    border-image-source: none;
+}
+
+.qy_card_selected .card:after {
+    content: attr(data-num);
+    position: absolute;
+    font-size: 50px;
+    display: block;
+    box-shadow: none;
+    z-index: 1;
+    text-align: center;
+    top: 50px;
+    color: red;
+    pointer-events: none;
+    font-family: shousha;
+}
+
+.card-statistics {
+    width: 85%;
+    height: 75%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: #231A1B;
+}
+
+.card-statistics {
+    width: 85%;
+    height: 75%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: #231A1B;
+}
+
+.card-statistics-title {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-items: center;
+    background: #372E1F;
+}
+
+.card-statistics-title > div {
+    position: relative;
+    flex: 1;
+    text-align: center;
+    color: #7F7768;
+    font-family: xinwei;
+    font-size: 25px;
+    align-items: center;
+    justify-items: center;
+    text-shadow: none;
+}
+
+.card-statistics-content {
+    display: flex;
+    width: 100%;
+    height: 86%;
+    position: relative;
+}
+
+.card-statistics-content > div {
+    overflow: auto;
+    flex: 1;
+    position: relative;
+    border-right: aliceblue 1px solid;
+}
+
+.card-statistics-content .items {
+    margin: 5px 0;
+    height: 30px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-statistics-content .items .item {
+    position: relative;
+    flex: .8;
+    background: #C5BA9A;
+    line-height: 2;
+    border-radius: 6px;
+}
+
+.card-statistics-content .items .item-num {
+    position: relative;
+    flex: .2;
+}
+/* 响应式布局 */
+@media screen and (max-device-width: 980px) {
+    .qy-avatar-1 {
+        width: 197px;
+        height: 271px;
+        left: 342px;
+        top: 87px;
+        position: fixed;
+        transform: rotate(11deg);
+    }
+
+    .qy-avatar-border-1 {/*MVP框大小*/
+        width: 222px;
+        height: 292px;
+        left: 330px;
+        top: 79px;
+        position: fixed;
+        transform: rotate(11deg);
+    }
+
+
+
+    .qy-avatar {
+        width: 245px;
+        height: 345px;
+        left: 290px;
+        top: 80px;
+        position: fixed;
+        transform: rotate(-3deg);
+    }
+
+    .qy-avatar-border {
+        width: 272px;
+        height: 370px;
+        left: 275px;
+        top: 70px;
+        position: fixed;
+        transform: rotate(-3deg);
+    }
+
+    .qy-mvp-right-info {
+        width: 34vw;
+        height: 54vh;
+        left: 520px;
+    }
+
+    .qy-mvp-player-technology, .qy-mvp-name-title {
+        font-size: 2.6vw;
+    }
+
+    .qy-mvp-player-nickname {
+        font-size: 3.4vw;
+    }
+
+    .qy-mvp-technology * {
+        font-size: 2.3vw;
+    }
+
+    .qy-avatar-border::before {
+        font-size: 5.4vh;
+    }
+
+    .qy-mvp-border-xing {
+        bottom: 20px;
+        left: 11px;
+    }
+
+    .qy-mvp-border-xing > .item {
+        width: 3vw;
+        height: 3vw;
+        left: 2px;
+    }
+
+    .qy-limit-avatar {
+        width: 180px;
+        height: 270px;
+        left: 373px;
+        top: 120px;
+    }
+
+    .qy-limit-font {
+        left: 590px;
+        position: fixed;
+    }
+    
+    .qy-mvp-share-button {
+        width: 90px;
+        height: 115px;
+    }
+}
+
+
+/* 扇形菜单 */
+.qy-inner div {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    border-radius: 50%;
+    justify-content: center;
+    justify-items: center;
+    transition: left, top;
+}
+
+
+/* 移植换肤 - start */
+
+.qingyao_skin {
+    width: 15%;
+    height: 15%;
+    left: 73.9%;
+    top: 34px;
+    min-width: 32px;
+    min-height: 32px;
+    max-width: 32px;
+    max-height: 32px;
+    background-size: cover;
+    pointer-events: auto;
+    background-image: url("images/characterplayer.jpg");
+    border-radius: 50px;
+    cursor: pointer;
+    transition-property: opacity, background, box-shadow;
+}
+
+.player .qingyao_skin {
+    left: 73%;
+}
+
+.player.fullskin2 .avatar .qingyao_skin, .player.fullskin2 .avatar2 .qingyao_skin {
+    left: 47%;
+}
+
+#bosslist > .player > .qingyao_Skin_Node > div {
+    left: 142px;
+    top: 30px;
+}
+
+.button > div > .qingyao_skin {
+    left: 67%;
+    top: 25px;
+    min-width: 28px;
+    min-height: 28px;
+}
+
+.name:not(.qingyao_skin), .name.name2:not(.qingyao_skin) {
+    pointer-events: none;
+}
+
+.hp:not(.qingyao_skin), .hp.text:not(.qingyao_skin) {
+    pointer-events: none;
+}
+
+.unseen > .avatar > div > .qingyao_skin {
+    pointer-events: none;
+    opacity: 0;
+    display: none;
+}
+
+.unseen2 > .avatar2 > div > .qingyao_skin {
+    pointer-events: none;
+    opacity: 0;
+    display: none;
+}
+
+
+.qingyao_character_skin_Node {
+    width: 470px;
+    height: 260px;
+    text-align: left;
+    background-image: url("images/charactercard.png");
+    background-size: 100% 100%;
+    z-index: 9;
+    cursor: default;
+    transition-property: none;
+}
+
+.qingyao_character_skin_Close {
+    top: 2%;
+    width: 20px;
+    height: 20px;
+    right: 1.1%;
+    cursor: pointer;
+    z-index: 99999;
+    border-top: rgba(248, 247, 246, 0.47) solid 2px !important;
+    border-left: rgba(248, 247, 246, 0.47) solid 2px !important;
+    border-bottom: rgb(61, 62, 64) solid 2px !important;
+    border-right: rgb(61, 62, 64) solid 2px !important;
+    text-align: center;
+    font-family: xinwei;
+    font-weight: bold;
+    transition: none;
+}
+
+.qingyao_character_skin_Close span {
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: rgb(245, 228, 211);
+}
+
+.qingyao_character_skin_Close:hover:active span {
+    top: 68%;
+}
+
+.qingyao_Skin_minimize {
+    right: 7.5%;
+    top: 2.4%;
+    width: 4.2%;
+    height: 7.4%;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99999;
+    transition: none;
+    border-top: rgba(248, 247, 246, 0.47) solid 2px !important;
+    border-left: rgba(248, 247, 246, 0.47) solid 2px !important;
+    border-bottom: rgb(61, 62, 64) solid 2px !important;
+    border-right: rgb(61, 62, 64) solid 2px !important;
+}
+
+.qingyao_Skin_minimize:hover {
+    -webkit-filter: brightness(1.2);
+    filter: brightness(1.2);
+}
+
+.qingyao_Skin_minimize:hover:active {
+    border-top: #3d3e40 solid 2px !important;
+    border-left: #3d3e40 solid 2px !important;
+    border-bottom: #b2a79c solid 2px !important;
+    border-right: #f8f7f6 solid 2px !important;
+}
+
+.qingyao_Skin_minimize::before {
+    content: '\2013';
+    font-weight: bold;
+    color: rgb(245, 228, 211);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+}
+
+.qingyao_Skin_minimize:hover:active::before {
+    top: 2px;
+}
+
+.qingyao_Skin_Node_guanbi {
+    width: 100%;
+    height: 100%;
+    z-index: 8;
+    cursor: default;
+}
+
+.qingyao_character_skin_Button {
+    position: relative;
+    width: 94px;
+    white-space: pre-wrap;
+    margin-top: 6px;
+    margin-right: 6px;
+    margin-left: 6px;
+    height: 127px;
+    background-size: cover;
+    background-position: 50% 0;
+    text-align: left;
+    border-radius: 0;
+}
+
+.qingyao_character_skin_content .qingyao_character_skin_dragZoom,
+.qingyao_character_skin_content .qingyao_character_skin_Close {
+    box-shadow: black 0 0 1px,
+    rgba(17, 87, 128, 1) 0 0 2px,
+    rgba(17, 87, 128, 1) 0 0 5px,
+    rgba(17, 87, 128, 1) 0 0 5px,
+    rgba(17, 87, 128, 1) 0 0 5px,
+    rgba(17, 87, 128, 1) 0 0 5px,
+    rgba(17, 87, 128, 1) 0 0 5px;
+}
+
+
+.qingyao_character_skin_Button > .qingyao_character_skin_yxy_div {
+    box-shadow: rgba(36, 193, 241, 1) 0 0 10px, rgba(36, 193, 241, 1) 0 0 10px, rgba(36, 193, 241, 1) 0 0 10px, rgba(36, 193, 241, 1) 0 0 10px
+}
+
+.qingyao_character_skin_yxy_div {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 999;
+}
+
+.qingyao_character_skin_content {
+    height: 82%;
+    width: 94%;
+    padding-left: 4.8%;
+    padding-bottom: 1%;
+    text-align: left;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+    z-index: 999999;
+    top: 0;
+    cursor: default;
+}
+
+.qingyao_character_skin_yxy {
+    background-image: url("images/characterYXY.png");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 26%;
+    width: 100%;
+    height: 50%;
+}
+
+.qingyao_character_skin_WJS > div {
+    opacity: 0.9 !important;
+}
+
+.qingyao_character_skin_WJSX {
+    opacity: 0.7;
+    width: 100%;
+    z-index: 999 !important;
+    height: 100%;
+    background-color: #000000ab;
+    pointer-events: none;
+}
+
+.qingyao_character_skin_WJS {
+    top: 45px;
+    width: 100%;
+    height: 25px;
+    color: yellow;
+    font-size: 17px;
+    opacity: 0.9 !important;
+    background: rgba(0, 0, 0, 0.6) /*#080809*/;
+    font-family: xinwei;
+}
+
+.qingyao_character_skin_tswz {
+    font-family: xinwei;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: 13%;
+    position: relative;
+    display: block;
+}
+
+.qingyao_Skin_info {
+    width: 100%;
+    min-height: 23%;
+    background-color: rgba(0, 0, 0, 0.6); /*#1d0b0ba8*/
+    bottom: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(250, 250, 200);
+    word-wrap: break-word;
+    word-break: break-all;
+    font-family: 'shousha', 'xinwei';
+    pointer-events: all;
+}
+
+.qingyao_skin_Button_modular {
+    position: relative;
+    width: 100%;
+    height: 140px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+
+.qingyao_Skin_div {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.qingyao_Skin_GradeOf {
+    height: 15%;
+    color: rgb(239, 230, 217);
+    font-family: 'xingkai';
+    right: 0;
+    font-size: 15px;
+    pointer-events: all;
+}
+
+.qingyao_bounceInLeft {
+    animation: bounceInLeft 0.6s;
+    -webkit-animation: bounceInLeft 0.6s;
+}
+
+.qingyao_bounceOutLeft {
+    animation: bounceOutLeft .6s;
+    -webkit-animation: bounceOutLeft 0.6s;
+}
+
+.qingyao_bounceInRight {
+    animation: bounceInRight 0.6s;
+    -webkit-animation: bounceInRight 0.6s;
+}
+
+.qingyao_bounceInBottom {
+    animation: bounceInBottom 0.6s;
+    -webkit-animation: bounceInBottom 0.6s;
+}
+
+.qingyao_bounceInTop {
+    animation: bounceInTop 0.6s;
+    -webkit-animation: bounceInTop 0.6s;
+}
+
+/* 移植换肤 - end */
+
+
+
+
+
+
+
+/** 动画 */
+@-webkit-keyframes qy-avatar-bounceOut {
+    100% {
+        -webkit-transform: scale(1) rotate(-3deg);
+        transform: scale(1) rotate(-3deg)
+    }
+    0% {
+        opacity: 0.75;
+        -webkit-transform: scale(2) rotate(-3deg);
+        transform: scale(2) rotate(-3deg);
+    }
+}
+
+@keyframes qy-avatar-bounceOut {
+    100% {
+        -webkit-transform: scale(1) rotate(-3deg);
+        transform: scale(1) rotate(-3deg)
+    }
+    0% {
+        opacity: 0.75;
+        -webkit-transform: scale(2) rotate(-3deg);
+        transform: scale(2) rotate(-3deg);
+    }
+}
+
+
+/*scal*/
+
+.qy-horn {
+    width: 14px;
+    height: 14px;
+    background-color: red;
+    position: absolute;
+}
+.qy-vertical {
+    width: 10px;
+    height: calc(100% - 14px);
+    margin: 7px 0px;
+    position: absolute;
+    /*background-color: #000;*/
+    cursor: col-resize;
+}
+.qy-horizontal {
+    width: calc(100% - 14px);
+    height: 10px;
+    margin: 0 7px;
+    position: absolute;
+    /*background-color: #000;*/
+    cursor: row-resize;
+}
+.qy-top {
+    top: -5px;
+    left: 0;
+}
+.qy-left {
+    top: 0;
+    left: -5px;
+}
+
+.qy-bottom {
+    left: 0;
+    bottom: -5px;
+}
+
+.qy-right {
+    top: 0;
+    right: -5px;
+}
+.qy-leftTop {
+    cursor: nw-resize;
+    left: -7px;
+    top: -7px;
+}
+
+.qy-rightTop {
+    cursor: ne-resize;
+    right: -7px;
+    top: -7px;
+}
+
+.qy-leftBottom {
+    cursor: sw-resize;
+    bottom: -7px;
+    left: -7px;
+}
+
+.qy-rightBottom {
+    cursor: se-resize;
+    right: -7px;
+    bottom: -7px;
+}
